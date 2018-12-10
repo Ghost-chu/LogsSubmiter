@@ -50,7 +50,7 @@ public class Main {
 	private static void doWork() {
 		StringBuilder builder = new StringBuilder();
 		String crash_report_link = null;
-		File crashFolder = new File("./.minecraft/crash-report");
+		File crashFolder = new File("./.minecraft/crash-reports");
 		if(crashFolder.exists()) {
 			try {
 				crash_report_link=getCrashReportLink(crashFolder);
